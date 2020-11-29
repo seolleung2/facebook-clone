@@ -4,7 +4,7 @@ import "./Login.css";
 import { auth, provider } from "./firebase";
 function Login() {
   const signIn = () => {
-    sign-in..
+    // sign-in..
     auth
       .signInWithPopup(provider)
       .then((result) => {
