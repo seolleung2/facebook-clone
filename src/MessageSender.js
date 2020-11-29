@@ -5,7 +5,10 @@ import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 
+import { useStateValue } from "./StateProvider";
+
 function MessageSender() {
+  const [{ user }, dispatch] = useStateValue();
   const [input, setInput] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const handleSubmit = (event) => {
@@ -19,15 +22,13 @@ function MessageSender() {
   return (
     <div className="messageSender">
       <div className="messageSender__top">
-        <Avatar
-          src={`https://dev-seolleung2.netlify.app/static/c874936a9ad595b612ce4943624bb704/a12fc/profile.png`}
-        />
+        <Avatar src={user.photoURL} />
         <form>
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="messageSender__input"
-            placeholder={`What's on your mind?`}
+            placeholder={`What's on your mind, ${user.displayName}?`}
           />
           <input
             value={imageUrl}
