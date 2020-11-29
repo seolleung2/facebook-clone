@@ -1,5 +1,5 @@
-# 🔵My Facebook App for Self-Introduction🔵
+# 🔵🌈My Facebook App for Self-Introduction🌈🔵
 
-### 🍎library, tool : React, Firebase
+![](./public/facebook_clone.jpeg)
 
-### 🌈Make changes good! I can do anything!
+### Deployed Url : https://facebook-clone-2b556.web.app/
