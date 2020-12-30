@@ -2,4 +2,4 @@
 
 ![](./public/facebook_clone.jpeg)
 
-### Deployed Url : https://facebook-clone-2b556.web.app/
+### Deployed Url : 임시 Test 용이라 중지 되었습니다.
