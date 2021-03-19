@@ -1,4 +1,4 @@
-# 🔵🌈My Facebook App for Self-Introduction🌈🔵
+# 🔵🌈My Facebook App🌈🔵
 
 ![](./public/facebook_clone.jpeg)
 
